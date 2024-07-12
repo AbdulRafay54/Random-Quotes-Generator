@@ -1,0 +1,55 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #d68689, #e48e77);
+    font-family: sans-serif;
+}
+
+.quote-container {
+    background: #fff;
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: center;
+}
+
+.quote-container:hover {
+    transform: scale(1.05);
+    background-color: #f3f4f6;
+}
+
+.quote-box {
+    margin: 20px 0;
+}
+
+#quote {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.3s;
+    font-family: 'Rubik Burned', system-ui;
+    font-weight: 500;
+}
+
+
+#new-quote {
+    font-family: 'Rubik Burned', system-ui;
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: linear-gradient(to right, #d68689, #e48e77);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#new-quote:hover {
+    background: #ff8566;
+}
